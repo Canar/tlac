@@ -1,0 +1,107 @@
+{
+    "pagination": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 50,
+        "items": 2,
+        "urls": {}
+    },
+    "results": [
+        {
+            "country": "Ireland",
+            "year": "2008",
+            "format": [
+                "File",
+                "MP3",
+                "Album"
+            ],
+            "label": [
+                "Acroplane Recordings"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "Dubstep"
+            ],
+            "id": 1579247,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 579145,
+            "master_url": "https://api.discogs.com/masters/579145",
+            "uri": "/wAgAwAgA-Mrepsican/release/1579247",
+            "catno": "acp035",
+            "title": "wAgAwAgA - Mrepsican",
+            "thumb": "https://img.discogs.com/vYAEjE-tk8Er7PMVnxVVEN6w-Vw=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1579247-1229856891.gif.jpg",
+            "cover_image": "https://img.discogs.com/wCr5zVEK-9TTOnLjjqVESs31UeA=/fit-in/350x350/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1579247-1229856891.gif.jpg",
+            "resource_url": "https://api.discogs.com/releases/1579247",
+            "community": {
+                "want": 2,
+                "have": 27
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "11",
+                    "text": "320 kbps",
+                    "descriptions": [
+                        "MP3",
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Ireland",
+            "year": "2010",
+            "format": [
+                "File",
+                "MP3"
+            ],
+            "label": [
+                "Acroplane Recordings"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "IDM"
+            ],
+            "id": 4767009,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 579145,
+            "master_url": "https://api.discogs.com/masters/579145",
+            "uri": "/wAgAwAgA-Mrepsican-Re-Mastered/release/4767009",
+            "catno": "ACPR005",
+            "title": "wAgAwAgA - Mrepsican Re-Mastered",
+            "thumb": "https://img.discogs.com/2cnAYC8eqOxfWP_xEuCBMXxLNkc=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-4767009-1374857462-8386.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/T_tQ9FCGLQWRtfIRedqSlLLvmdY=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4767009-1374857462-8386.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/4767009",
+            "community": {
+                "want": 3,
+                "have": 6
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "12",
+                    "text": "320 kbps",
+                    "descriptions": [
+                        "MP3"
+                    ]
+                }
+            ]
+        }
+    ]
+}

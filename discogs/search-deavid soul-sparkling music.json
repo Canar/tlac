@@ -1,0 +1,111 @@
+{
+    "pagination": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 50,
+        "items": 2,
+        "urls": {}
+    },
+    "results": [
+        {
+            "country": "Japan",
+            "year": "2000",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "Transonic Records",
+                "Flavour of Sound",
+                "Flavour Of Sound Ltd",
+                "Transonic Suginami Studio"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "House",
+                "Disco"
+            ],
+            "id": 223355,
+            "barcode": [
+                "4522775801089"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 339577,
+            "master_url": "https://api.discogs.com/masters/339577",
+            "uri": "/Deavid-Soul-Sparkling-Music/release/223355",
+            "catno": "FVCC-80108",
+            "title": "Deavid Soul - Sparkling Music",
+            "thumb": "https://img.discogs.com/hz4ghtMSO5yuoDBj9urOoCcvztI=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-223355-1265326101.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/yq1Ovkq7jb0o1wyiEn0zgyY1xa4=/fit-in/390x390/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-223355-1265326101.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/223355",
+            "community": {
+                "want": 72,
+                "have": 30
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Japan",
+            "year": "2000",
+            "format": [
+                "Vinyl",
+                "LP"
+            ],
+            "label": [
+                "Transonic Records"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "House"
+            ],
+            "id": 2905030,
+            "barcode": [
+                "AE22010/A"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 339577,
+            "master_url": "https://api.discogs.com/masters/339577",
+            "uri": "/Deavid-Soul-Sparkling-Music-Analog-Edition/release/2905030",
+            "catno": "TRS-LP05",
+            "title": "Deavid Soul - Sparkling Music (Analog Edition)",
+            "thumb": "https://img.discogs.com/qgzVnUXo7ZfEmT5jpQYYroG44Zs=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2905030-1306590014.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/pBp-sD9l-ILX_HxkSS67CQQ6gQI=/fit-in/400x353/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2905030-1306590014.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/2905030",
+            "community": {
+                "want": 85,
+                "have": 11
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "LP"
+                    ]
+                }
+            ]
+        }
+    ]
+}

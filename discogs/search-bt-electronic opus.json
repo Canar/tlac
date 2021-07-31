@@ -1,0 +1,360 @@
+{
+    "pagination": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 50,
+        "items": 6,
+        "urls": {}
+    },
+    "results": [
+        {
+            "country": "Netherlands",
+            "year": "2016",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "Black Hole Recordings",
+                "Electronic Opus",
+                "Black Hole Recordings",
+                "Skywalker Sound",
+                "The Lodge, New York",
+                "Smecky Music Studios",
+                "Disc Makers"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic",
+                "Rock",
+                "Pop",
+                "Stage & Screen"
+            ],
+            "style": [
+                "Trance",
+                "Breakbeat",
+                "Ambient",
+                "Symphonic Rock"
+            ],
+            "id": 9130708,
+            "barcode": [
+                "8715197015028",
+                "MZJ0165",
+                "IFPI LZ71",
+                "IFPI ALK13"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 896776,
+            "master_url": "https://api.discogs.com/masters/896776",
+            "uri": "/BT-Electronic-Opus/release/9130708",
+            "catno": "BLACK HOLE CD 150",
+            "title": "BT - Electronic Opus",
+            "thumb": "https://img.discogs.com/r0tsYx5HDgFFPFjvD1Z8CzU41Rc=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-9130708-1475305476-2253.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/ixMeX2Im-tS017toPG2-6zkNiVY=/fit-in/600x533/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-9130708-1475305476-2253.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/9130708",
+            "community": {
+                "want": 31,
+                "have": 65
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "Electronic Opus",
+                "Electronic Opus",
+                "Skywalker Sound",
+                "The Lodge, New York",
+                "Smecky Music Studios"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic",
+                "Rock",
+                "Pop",
+                "Stage & Screen"
+            ],
+            "style": [
+                "Trance",
+                "Breakbeat",
+                "Ambient",
+                "Symphonic Rock"
+            ],
+            "id": 8010275,
+            "barcode": [
+                "040232323591",
+                "MZJ0165",
+                "IFPI LZ71",
+                "IFPI ALK13"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 896776,
+            "master_url": "https://api.discogs.com/masters/896776",
+            "uri": "/BT-Electronic-Opus/release/8010275",
+            "catno": "none",
+            "title": "BT - Electronic Opus",
+            "thumb": "https://img.discogs.com/ykgOZE-649zPTU1MF0VHEBk9boU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-8010275-1453419594-7478.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/DhwCD1i4Sihxri-s6bi-oZEfUiM=/fit-in/600x533/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-8010275-1453419594-7478.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/8010275",
+            "community": {
+                "want": 29,
+                "have": 38
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "File",
+                "AAC",
+                "Album"
+            ],
+            "label": [
+                "Binary Acoustics"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic",
+                "Classical"
+            ],
+            "style": [
+                "Progressive House",
+                "Trance",
+                "Ambient",
+                "Downtempo"
+            ],
+            "id": 7691674,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 896776,
+            "master_url": "https://api.discogs.com/masters/896776",
+            "uri": "/BT-Electronic-Opus/release/7691674",
+            "catno": "none",
+            "title": "BT - Electronic Opus",
+            "thumb": "https://img.discogs.com/R8Gd8BOwUcR6azvbKnkBOABO5mo=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7691674-1446836361-5488.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/mNcLHMUGermoKLhuEFMzf17J4Gs=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7691674-1446836361-5488.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7691674",
+            "community": {
+                "want": 5,
+                "have": 5
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "14",
+                    "descriptions": [
+                        "AAC",
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "File",
+                "WAV",
+                "Album"
+            ],
+            "label": [
+                "Not On Label (BT Self-released)"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic",
+                "Classical"
+            ],
+            "style": [
+                "Progressive House",
+                "Trance",
+                "Ambient",
+                "Downtempo"
+            ],
+            "id": 7577511,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 896776,
+            "master_url": "https://api.discogs.com/masters/896776",
+            "uri": "/BT-Electronic-Opus/release/7577511",
+            "catno": "none",
+            "title": "BT - Electronic Opus",
+            "thumb": "https://img.discogs.com/Rx6LGi_KsJyRqZ3SWsanw352Vp8=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7577511-1444713122-2261.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/ZLnPbD4Dej0NOl_-n1Rk3m_ECaU=/fit-in/600x538/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7577511-1444713122-2261.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7577511",
+            "community": {
+                "want": 6,
+                "have": 30
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "14",
+                    "text": "24bit",
+                    "descriptions": [
+                        "WAV",
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "File",
+                "MP3",
+                "Album"
+            ],
+            "label": [
+                "Not On Label (BT Self-released)"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic",
+                "Classical"
+            ],
+            "style": [
+                "Progressive House",
+                "Trance",
+                "Ambient",
+                "Downtempo"
+            ],
+            "id": 7580451,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 896776,
+            "master_url": "https://api.discogs.com/masters/896776",
+            "uri": "/BT-Electronic-Opus/release/7580451",
+            "catno": "none",
+            "title": "BT - Electronic Opus",
+            "thumb": "https://img.discogs.com/iKwamBn4w0HFsX_0C4Za5zT1CFo=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7580451-1444479329-3778.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/hnF0SLlMTWVhEHN1P29DR7e5XBE=/fit-in/599x539/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7580451-1444479329-3778.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7580451",
+            "community": {
+                "want": 9,
+                "have": 26
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "14",
+                    "text": "320 kbps",
+                    "descriptions": [
+                        "MP3",
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Netherlands",
+            "year": "2016",
+            "format": [
+                "Blu-ray",
+                "Blu-ray Audio",
+                "Album",
+                "Multichannel"
+            ],
+            "label": [
+                "Black Hole Recordings",
+                "Electronic Opus",
+                "Pure Audio",
+                "Black Hole Recordings"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic",
+                "Rock",
+                "Pop",
+                "Classical",
+                "Stage & Screen"
+            ],
+            "style": [
+                "Trance",
+                "Breakbeat",
+                "Ambient",
+                "Symphonic Rock",
+                "Modern Classical"
+            ],
+            "id": 9129735,
+            "barcode": [
+                "808798101097",
+                "15133-BR-004 BD16081330",
+                "IFPI LW42",
+                "BIEM",
+                "STEMRA"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 896776,
+            "master_url": "https://api.discogs.com/masters/896776",
+            "uri": "/BT-Electronic-Opus/release/9129735",
+            "catno": "BLACK HOLE BRD 10",
+            "title": "BT - Electronic Opus",
+            "thumb": "https://img.discogs.com/AdE6ihx5HFSp4u_gmSe8VV8C47w=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-9129735-1475482300-8342.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/AvmiLBj0Fblek030iML5uwvrJD0=/fit-in/600x772/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-9129735-1475482300-8342.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/9129735",
+            "community": {
+                "want": 64,
+                "have": 58
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "Blu-ray",
+                    "qty": "1",
+                    "descriptions": [
+                        "Blu-ray Audio",
+                        "Album",
+                        "Multichannel"
+                    ]
+                }
+            ]
+        }
+    ]
+}

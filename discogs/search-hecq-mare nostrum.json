@@ -1,0 +1,260 @@
+{
+    "pagination": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 50,
+        "items": 5,
+        "urls": {}
+    },
+    "results": [
+        {
+            "country": "Germany",
+            "year": "2015",
+            "format": [
+                "File",
+                "FLAC",
+                "Album"
+            ],
+            "label": [
+                "Hymen Records"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "Field Recording",
+                "Ambient",
+                "Experimental"
+            ],
+            "id": 6635770,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 795563,
+            "master_url": "https://api.discogs.com/masters/795563",
+            "uri": "/Hecq-Mare-Nostrum/release/6635770",
+            "catno": "\u00a5832",
+            "title": "Hecq - Mare Nostrum",
+            "thumb": "https://img.discogs.com/Xh-8Q5loQZHNDh5QhEa1mJwz8xE=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6635770-1423566164-2385.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/RBrR6cNT6j2dWh3qjAQi8oA0Yz4=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6635770-1423566164-2385.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/6635770",
+            "community": {
+                "want": 4,
+                "have": 17
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "4",
+                    "descriptions": [
+                        "FLAC",
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Germany",
+            "year": "2015",
+            "format": [
+                "File",
+                "MP3",
+                "Album"
+            ],
+            "label": [
+                "Hymen Records"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "Field Recording",
+                "Ambient",
+                "Experimental"
+            ],
+            "id": 6641553,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 795563,
+            "master_url": "https://api.discogs.com/masters/795563",
+            "uri": "/Hecq-Mare-Nostrum/release/6641553",
+            "catno": "\u00a5832",
+            "title": "Hecq - Mare Nostrum",
+            "thumb": "https://img.discogs.com/LGyJ2BUTT5yGUGTedexe1jwKBWA=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6641553-1423680821-4010.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/gGX6m6VXm_68Naf3Ed9jlMX6VCc=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6641553-1423680821-4010.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/6641553",
+            "community": {
+                "want": 4,
+                "have": 23
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "4",
+                    "text": "320 kbps",
+                    "descriptions": [
+                        "MP3",
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Germany",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "Hymen Records",
+                "Calyx Mastering",
+                "Erased Tapes Music"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "Drone",
+                "Ambient",
+                "Field Recording",
+                "Experimental"
+            ],
+            "id": 6242461,
+            "barcode": [
+                "821272213925",
+                "hecq. mare nostrum. Y832 www.hymen-records.com"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 795563,
+            "master_url": "https://api.discogs.com/masters/795563",
+            "uri": "/Hecq-Mare-Nostrum/release/6242461",
+            "catno": "\u00a5832",
+            "title": "Hecq - Mare Nostrum",
+            "thumb": "https://img.discogs.com/xBvAddm3RmKZqlhLD6Rr9hjJDes=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-6242461-1419241356-3991.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/Vsxt6yJYoQuJ_BpEp4g9uafMfqI=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6242461-1419241356-3991.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/6242461",
+            "community": {
+                "want": 50,
+                "have": 120
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Unknown",
+            "year": "2015",
+            "format": [
+                "File",
+                "WAV"
+            ],
+            "label": [
+                "Not On Label (Ben Lukas Boysen Self-released)"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "Ambient"
+            ],
+            "id": 16638270,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Hecq-Mare-Nostrum-Part-V-Unreleased/release/16638270",
+            "catno": "none",
+            "title": "Hecq - Mare Nostrum Part V (Unreleased)",
+            "thumb": "https://img.discogs.com/6ryGBHscRhDwWSGyBwvYsp7t7Ww=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-16638270-1608999040-8009.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/gQEP99yMWfQ8LqYHHSDvVGLP1GI=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-16638270-1608999040-8009.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/16638270",
+            "community": {
+                "want": 2,
+                "have": 4
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "1",
+                    "text": "32-bit 44.1 kHz",
+                    "descriptions": [
+                        "WAV"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Unknown",
+            "year": "2015",
+            "format": [
+                "File",
+                "WAV"
+            ],
+            "label": [
+                "Not On Label (Ben Lukas Boysen Self-released)"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "Ambient"
+            ],
+            "id": 16638321,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Hecq-Mare-Nostrum-Part-VI-Unreleased/release/16638321",
+            "catno": "none",
+            "title": "Hecq - Mare Nostrum Part VI (Unreleased)",
+            "thumb": "https://img.discogs.com/R_3wYotzysKZfFBdZR5Udb6q84M=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-16638321-1608999331-1955.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/TqFG9OBEhe-ZxnxkfT-5kkstHgw=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-16638321-1608999331-1955.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/16638321",
+            "community": {
+                "want": 2,
+                "have": 4
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "1",
+                    "text": "32-bit 44.1 kHz",
+                    "descriptions": [
+                        "WAV"
+                    ]
+                }
+            ]
+        }
+    ]
+}

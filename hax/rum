@@ -1,0 +1,93 @@
+#!/usr/bin/env ruby
+require 'open3'
+require 'shellwords'
+require 'io/console'
+require 'pathname'
+
+pkg='rum'
+ver='0.3.0'
+pkgd="#{Dir.home}/.config/#{pkg}"
+
+word=4
+rate=44100
+chan=2
+cycle=0
+
+ff_exe="ffmpeg -hide_banner"
+ff_fmt="-ac #{chan} -ar #{rate} -f f#{word*8}le"
+ff_out="-f pulse default"
+
+list=[]
+list_i=0
+mode=:load
+toff=''
+if ARGV.length==0
+  if File.file?("#{pkgd}/list")
+    list=File.read("#{pkgd}/list").split("\n")
+    if File.file?("#{pkgd}/pos")
+      pos=File.read("#{pkgd}/pos").split("\n")
+      list_i=pos[0].to_i
+      cycle=pos[1].to_i
+      cycle-=3 if cycle>3
+      ssoff="-ss #{cycle} " if cycle>0
+    end
+  else
+    puts "Usage: #{pkg} files_to_play"
+    exit 1
+  end
+else
+  list=ARGV.map{|x|Pathname(x).realpath.to_s}
+end
+prefix=/\A(.*).*(\n\1.*)*\Z/.match(list.join("\n"))[1]
+
+ii,io,ie,it=nil,nil,nil,nil
+oi,oo,oe,ot=Open3.popen3("#{ff_exe} #{ff_fmt} -i - #{ff_out}")
+[oo,oe].each{|x|x.close}
+
+pt=Thread.new{
+  until :quit == mode
+    if io and io.eof?
+      list_i+=1
+      mode=list_i>=list.count ? :quit : :load
+    end
+    case mode
+    when :load #load new track
+      io.close unless !io or io.closed?
+      ii,io,ie,it = Open3.popen3 "#{ff_exe} -i #{Shellwords.escape(list[list_i])} #{ssoff} #{ff_fmt} -"
+      [ii,ie].each{|x|x.close}
+      cycle=0 unless ssoff.length > 0
+      puts
+      mode=:play
+    when :play
+      oi.write(io.read(word*chan*rate))
+      cycle+=1
+    end
+  end
+}
+
+until :quit == mode
+  print "\r#{list[list_i][prefix.length..-1]} [#{cycle/60}:#{"%02d"%(cycle%60)}] [N]ext #{list_i>0?"[P]rev ":""}[Q]uit > "
+  case IO.console.raw{|c|c.read_nonblock(1) rescue ''}
+  when 'n'
+    list_i+=1
+    mode= list_i<list.count ? :load : :quit
+  when 'p'
+    if list_i>0
+      list_i-=1
+      mode=:load
+    end 
+  when 'q'
+    mode=:quit
+  else
+    sleep rand
+  end
+end
+
+if list_i<list.count
+  Dir.mkdir(pkgd) unless File.directory?(pkgd)
+  File.write(pkgd+"/list",list.join("\n"))
+  File.write(pkgd+"/pos",list_i.to_s+"\n"+cycle.to_s)
+end
+
+puts "        ]  #{pkg} ✝ v#{ver}  [        "
+pt.join

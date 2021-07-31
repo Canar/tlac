@@ -1,0 +1,422 @@
+{
+    "pagination": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 50,
+        "items": 6,
+        "urls": {}
+    },
+    "results": [
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Album",
+                "CD",
+                "Compilation",
+                "Mixed"
+            ],
+            "label": [
+                "Amorphous Music",
+                "Amorphous Music"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic",
+                "Hip Hop",
+                "Reggae"
+            ],
+            "style": [
+                "Trap",
+                "Bassline",
+                "Dubstep",
+                "Grime"
+            ],
+            "id": 7250179,
+            "barcode": [
+                "881034113115"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 894676,
+            "master_url": "https://api.discogs.com/masters/894676",
+            "uri": "/Bassnectar-Into-The-Sun/release/7250179",
+            "catno": "AM-019",
+            "title": "Bassnectar - Into The Sun",
+            "thumb": "https://img.discogs.com/rTSE8Pf6zxOnOGm7iRlNg7RILnQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7250179-1605200664-7209.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/h-nPjYmU0BbuMWQSVjgwN6J7oPw=/fit-in/600x536/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7250179-1605200664-7209.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7250179",
+            "community": {
+                "want": 25,
+                "have": 73
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                },
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Compilation",
+                        "Mixed"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "Vinyl",
+                "LP",
+                "Vinyl",
+                "LP",
+                "All Media",
+                "Album",
+                "Limited Edition"
+            ],
+            "label": [
+                "Amorphous Music",
+                "Amorphous Music",
+                "Amorphous Music"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "Dubstep",
+                "Breakbeat",
+                "IDM"
+            ],
+            "id": 7529933,
+            "barcode": [
+                "8 8103411312 2"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 894676,
+            "master_url": "https://api.discogs.com/masters/894676",
+            "uri": "/Bassnectar-Into-The-Sun/release/7529933",
+            "catno": "AM-019V",
+            "title": "Bassnectar - Into The Sun",
+            "thumb": "https://img.discogs.com/49IA5xaGooB4ZDzsnksAjo0Dc3I=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7529933-1446420395-9933.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/6FeUP6G-I4EDZM_-d10pbwlDg6A=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7529933-1446420395-9933.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7529933",
+            "community": {
+                "want": 213,
+                "have": 740
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "text": "Red",
+                    "descriptions": [
+                        "LP"
+                    ]
+                },
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "text": "White",
+                    "descriptions": [
+                        "LP"
+                    ]
+                },
+                {
+                    "name": "All Media",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album",
+                        "Limited Edition"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "File",
+                "AAC",
+                "Album"
+            ],
+            "label": [
+                "Amorphous Music"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "Dubstep",
+                "Breakbeat",
+                "IDM"
+            ],
+            "id": 7561336,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 894676,
+            "master_url": "https://api.discogs.com/masters/894676",
+            "uri": "/Bassnectar-Into-The-Sun/release/7561336",
+            "catno": "AM-019",
+            "title": "Bassnectar - Into The Sun",
+            "thumb": "https://img.discogs.com/9zqh9c1iJsMafGhCYjdV18rcc3U=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7561336-1472073668-7082.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/LV0ea2tHT64WTjDAGUXsRkKA1ec=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7561336-1472073668-7082.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7561336",
+            "community": {
+                "want": 8,
+                "have": 11
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "17",
+                    "text": "256 kbps",
+                    "descriptions": [
+                        "AAC",
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "Vinyl",
+                "LP",
+                "Misprint",
+                "Vinyl",
+                "LP",
+                "All Media",
+                "Album",
+                "Limited Edition"
+            ],
+            "label": [
+                "Amorphous Music",
+                "Amorphous Music",
+                "Amorphous Music"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "Dubstep",
+                "Breakbeat",
+                "IDM"
+            ],
+            "id": 16045978,
+            "barcode": [
+                "8 8103411312 2"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/Bassnectar-Into-The-Sun/release/16045978",
+            "catno": "AM-019V",
+            "title": "Bassnectar - Into The Sun",
+            "thumb": "https://img.discogs.com/IqOOvHGJMl-pe1GNYo1Ho4TIKek=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-16045978-1602463806-2677.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/jJwndoNWHLG1W06AagkOETUuj0U=/fit-in/600x1018/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-16045978-1602463806-2677.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/16045978",
+            "community": {
+                "want": 9,
+                "have": 1
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "text": "Red",
+                    "descriptions": [
+                        "LP",
+                        "Misprint"
+                    ]
+                },
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "text": "White",
+                    "descriptions": [
+                        "LP"
+                    ]
+                },
+                {
+                    "name": "All Media",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album",
+                        "Limited Edition"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2020",
+            "format": [
+                "Vinyl",
+                "LP",
+                "Vinyl",
+                "LP",
+                "All Media",
+                "Album",
+                "Limited Edition",
+                "Repress"
+            ],
+            "label": [
+                "Amorphous Music"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "Dubstep",
+                "Breakbeat",
+                "IDM"
+            ],
+            "id": 15805472,
+            "barcode": [
+                "8 8103411312 2",
+                "880882424817"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 894676,
+            "master_url": "https://api.discogs.com/masters/894676",
+            "uri": "/Bassnectar-Into-The-Sun/release/15805472",
+            "catno": "AM-019V",
+            "title": "Bassnectar - Into The Sun",
+            "thumb": "https://img.discogs.com/mJCLQ6dI_tGiMQf5sUvCe8onncM=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-15805472-1598123285-8416.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/hwjU5YUv5IIBX8lct81KsYbWI3I=/fit-in/600x800/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-15805472-1598123285-8416.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/15805472",
+            "community": {
+                "want": 18,
+                "have": 72
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "text": "Red",
+                    "descriptions": [
+                        "LP"
+                    ]
+                },
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "text": "White",
+                    "descriptions": [
+                        "LP"
+                    ]
+                },
+                {
+                    "name": "All Media",
+                    "qty": "1",
+                    "text": "180 gram",
+                    "descriptions": [
+                        "Album",
+                        "Limited Edition",
+                        "Repress"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "Vinyl",
+                "12\"",
+                "45 RPM",
+                "Test Pressing",
+                "Vinyl",
+                "12\"",
+                "45 RPM",
+                "Test Pressing"
+            ],
+            "label": [
+                "Amorphous Music",
+                "Amorphous Music",
+                "Amorphous Music"
+            ],
+            "type": "release",
+            "genre": [
+                "Electronic"
+            ],
+            "style": [
+                "Dubstep",
+                "Breakbeat",
+                "IDM"
+            ],
+            "id": 15947303,
+            "barcode": [
+                "8 8103411312 2"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 894676,
+            "master_url": "https://api.discogs.com/masters/894676",
+            "uri": "/Bassnectar-Into-The-Sun/release/15947303",
+            "catno": "AM-019V",
+            "title": "Bassnectar - Into The Sun",
+            "thumb": "https://img.discogs.com/hMS8nDBhbgvmhyB0QGVfyO1UcA4=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-15947303-1600714667-5128.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/MOkEcvZMjERgT7R4YgiD5ICgzWM=/fit-in/600x800/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-15947303-1600714667-5128.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/15947303",
+            "community": {
+                "want": 10,
+                "have": 1
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "12\"",
+                        "45 RPM",
+                        "Test Pressing"
+                    ]
+                },
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "12\"",
+                        "45 RPM",
+                        "Test Pressing"
+                    ]
+                }
+            ]
+        }
+    ]
+}

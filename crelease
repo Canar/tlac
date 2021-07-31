@@ -1,0 +1,6 @@
+#!/bin/bash
+f=discogs/release-$1
+ua='tlac/0.0 +https://github.com/Canar'
+t="?token=hmFBGgDXqpxTckvxbzShCTfATuRDrFQiCMfXJrgR"
+curl https://api.discogs.com/releases/$1"$t" --user-agent "$ua" >"$f"
+./release "$f"

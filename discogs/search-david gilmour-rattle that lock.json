@@ -1,0 +1,2589 @@
+{
+    "pagination": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 50,
+        "items": 38,
+        "urls": {}
+    },
+    "results": [
+        {
+            "country": "Europe",
+            "year": "2015",
+            "format": [
+                "Box Set",
+                "Deluxe Edition",
+                "CD",
+                "Album",
+                "Blu-ray",
+                "Blu-ray Audio",
+                "Album",
+                "Stereo",
+                "Multichannel"
+            ],
+            "label": [
+                "Columbia",
+                "Sony Music",
+                "Sony Music Entertainment",
+                "Sony Music Entertainment",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Columbia",
+                "Sony DADC",
+                "Sony DADC",
+                "Pink Floyd Music Publishers Ltd.",
+                "Imagem London Limited",
+                "Sixi\u00e8me Son \u00c8dition",
+                "Astoria",
+                "Air Studios",
+                "Gallery Studios",
+                "Abbey Road Studios",
+                "Church Of The Holy Spirit",
+                "Medina Studio",
+                "Das Boot Studio, Stockholm",
+                "The Village Recorder"
+            ],
+            "type": "release",
+            "genre": [
+                "Jazz",
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock",
+                "Cool Jazz"
+            ],
+            "id": 7491714,
+            "barcode": [
+                "888751232822",
+                "8 88751 23282 2",
+                "LC 00162",
+                "BIEM/GEMA",
+                "88875123262",
+                "['Sony DADC' logo] A0102550601-0101 38 A00",
+                "IFPI L558",
+                "IFPI 941S",
+                "['Sony DADC' logo] A0102550601-0101 38 A03",
+                "IFPI L558",
+                "IFPI 94V3",
+                "['Sony DADC' logo] A0102550601-0101 28 A01",
+                "IFPI L558",
+                "IFPI 94Z5",
+                "['Sony DADC' logo] A0102550601-0101 28 C01",
+                "IFPI L558",
+                "IFPI 946R",
+                "['Sony DADC' logo] A0102550601-0101 28 B03",
+                "IFPI L558",
+                "IFPI 94V5",
+                "['Sony DADC' logo] A0102550601-0101 28 A00",
+                "IFPI L558",
+                "IFPI 94Z6",
+                "['Sony DADC' logo] A0102550601-0101 28 B02",
+                "IFPI L558",
+                "IFPI 94Z8",
+                "88875123282",
+                "[One-Blue logo] A0102553166-A511 1000 2A00",
+                "IFPI LY26",
+                "IFPI 94F8",
+                "A0102553166-A511 1000 3A00",
+                "IFPI LY26",
+                "IFPI 946L"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/7491714",
+            "catno": "88875123282",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/l7_qvmRvWOB5Rdo7Ztpxq86gHqs=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7491714-1487185373-7298.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/3V9rZGUE6AOCfiQUgmzzemJZd5w=/fit-in/600x710/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7491714-1487185373-7298.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7491714",
+            "community": {
+                "want": 66,
+                "have": 1758
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "Box Set",
+                    "qty": "1",
+                    "descriptions": [
+                        "Deluxe Edition"
+                    ]
+                },
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                },
+                {
+                    "name": "Blu-ray",
+                    "qty": "1",
+                    "text": "Stereo PCM, 5.1 DTS Master Audio, 5.1 PCM",
+                    "descriptions": [
+                        "Blu-ray Audio",
+                        "Album",
+                        "Stereo",
+                        "Multichannel"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Unknown",
+            "year": "2015",
+            "format": [
+                "File",
+                "FLAC",
+                "Album"
+            ],
+            "label": [
+                "Columbia"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock"
+            ],
+            "id": 12501847,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/12501847",
+            "catno": "none",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/ja9ugqQvL8kJEaD8tVOcssfJahU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-12501847-1536529130-1376.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/gJJH08uw1Zw8CQujWNSZAcAGki4=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-12501847-1536529130-1376.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/12501847",
+            "community": {
+                "want": 4,
+                "have": 17
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "10",
+                    "text": "24bit 96kHz",
+                    "descriptions": [
+                        "FLAC",
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Europe",
+            "year": "2015",
+            "format": [
+                "CDr",
+                "Single",
+                "Promo"
+            ],
+            "label": [
+                "Columbia",
+                "Sony Music"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Pop Rock",
+                "Classic Rock"
+            ],
+            "id": 15025923,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 872009,
+            "master_url": "https://api.discogs.com/masters/872009",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/15025923",
+            "catno": "none",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/pxHI0dDFKFdQ-qpcC5jycXnIR14=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-15025923-1585673450-1617.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/4eRlK-M2cuFaSjn8Xj9SVhOX2I0=/fit-in/600x632/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-15025923-1585673450-1617.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/15025923",
+            "community": {
+                "want": 7,
+                "have": 1
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CDr",
+                    "qty": "1",
+                    "text": "Watermarked",
+                    "descriptions": [
+                        "Single",
+                        "Promo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Unknown",
+            "year": "2015",
+            "format": [
+                "File",
+                "MP3",
+                "Single"
+            ],
+            "label": [
+                "Columbia",
+                "David Gilmour Music Ltd.",
+                "Columbia Records",
+                "Sony Music Entertainment"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Pop Rock",
+                "Classic Rock"
+            ],
+            "id": 7477072,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 872009,
+            "master_url": "https://api.discogs.com/masters/872009",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/7477072",
+            "catno": "none",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/uptaVZjfbc-4iK4dzb5Z0gump2I=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7477072-1442499112-5412.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/OO3Zjlnila9ghWpi5cFKgVv1a10=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7477072-1442499112-5412.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7477072",
+            "community": {
+                "want": 6,
+                "have": 2
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "1",
+                    "text": "320 kbps",
+                    "descriptions": [
+                        "MP3",
+                        "Single"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Japan",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Album",
+                "Blu-ray",
+                "Album",
+                "Box Set"
+            ],
+            "label": [
+                "Sony Records Int'l",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Sony Music Labels Inc.",
+                "Columbia Records",
+                "Astoria",
+                "Medina Studio",
+                "Abbey Road Studios",
+                "Gallery Studios",
+                "das boot recording"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock"
+            ],
+            "id": 7509389,
+            "barcode": [
+                "4547366246810",
+                "888751232822",
+                "SICP-30815   1",
+                "IFPI L280",
+                "IFPI 4564",
+                "VQBY-1389 L0  1",
+                "453T",
+                "JASRAC"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/7509389",
+            "catno": "SICP-30815~6",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/od8LJw6VJBuAcceXlClFUJBy17I=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7509389-1442943834-8741.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/ArgQc--pLGDjnYMaglUHcYlc3Q0=/fit-in/500x519/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7509389-1442943834-8741.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7509389",
+            "community": {
+                "want": 25,
+                "have": 55
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "text": "Blu-Spec CD",
+                    "descriptions": [
+                        "Album"
+                    ]
+                },
+                {
+                    "name": "Blu-ray",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                },
+                {
+                    "name": "Box Set",
+                    "qty": "1"
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "CDr",
+                "Album",
+                "Promo"
+            ],
+            "label": [
+                "Columbia"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock"
+            ],
+            "id": 10313636,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/10313636",
+            "catno": "none",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/sO9jgGJ3x3_GVOydN39g5nO95Xk=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-10313636-1495158592-5186.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/YFx911sarsJpnFwGq7Qv8HhvRys=/fit-in/385x400/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-10313636-1495158592-5186.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/10313636",
+            "community": {
+                "want": 16,
+                "have": 4
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CDr",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album",
+                        "Promo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Finland",
+            "year": "2015",
+            "format": [
+                "CDr",
+                "Single",
+                "Promo"
+            ],
+            "label": [
+                "Sony Music",
+                "David Gilmour Music Ltd.",
+                "Columbia Records",
+                "Sony Music Entertainment",
+                "Pink Floyd Music Publishers Ltd.",
+                "Imagem London Limited",
+                "Sixi\u00e8me Son \u00c8dition"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Pop Rock",
+                "Classic Rock"
+            ],
+            "id": 7352687,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 872009,
+            "master_url": "https://api.discogs.com/masters/872009",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/7352687",
+            "catno": "GBLTP1500006",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/aoB4dcXftME8_uSubwmUaElnfdQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7352687-1441220236-9629.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/vbOPEZ20EwNDAMl3k0Dr-2uU9dY=/fit-in/600x603/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7352687-1441220236-9629.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7352687",
+            "community": {
+                "want": 22,
+                "have": 2
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CDr",
+                    "qty": "1",
+                    "descriptions": [
+                        "Single",
+                        "Promo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Japan",
+            "year": "2015",
+            "format": [
+                "CDr",
+                "Album",
+                "Promo"
+            ],
+            "label": [
+                "Sony Music"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock"
+            ],
+            "id": 10313655,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/10313655",
+            "catno": "none",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/bwCKFidYwknqXyXeE3Bwn3u_vWE=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-10313655-1495159133-3246.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/UhVC74AAXvM-MidDyjRLIoqEtSI=/fit-in/331x303/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-10313655-1495159133-3246.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/10313655",
+            "community": {
+                "want": 18,
+                "have": 0
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CDr",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album",
+                        "Promo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "Vinyl",
+                "LP",
+                "Album",
+                "Promo"
+            ],
+            "label": [
+                "Columbia",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Astoria",
+                "Air Studios",
+                "Gallery Studios",
+                "Abbey Road Studios",
+                "Church Of The Holy Spirit",
+                "Medina Studio",
+                "das boot recording",
+                "Columbia Records",
+                "Pink Floyd Music Publishers Ltd.",
+                "Sony Music Entertainment",
+                "Record Industry"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock"
+            ],
+            "id": 11442386,
+            "barcode": [
+                "AL 888755123291 BG 14041 1A",
+                "BL 888755123291 BG 14041 1B"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/11442386",
+            "catno": "88875123291",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/QLHwW4QQ677t76y1YYc1LkmtAZw=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-11442386-1516408138-1511.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/U7CD4GeggDoTlhUxI2Dzm37Vq50=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-11442386-1516408138-1511.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/11442386",
+            "community": {
+                "want": 44,
+                "have": 40
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "LP",
+                        "Album",
+                        "Promo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Russia",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Album",
+                "DVD",
+                "DVD-Video",
+                "NTSC",
+                "Album",
+                "All Media",
+                "Deluxe Edition",
+                "Unofficial Release"
+            ],
+            "label": [
+                "Columbia",
+                "Columbia",
+                "Columbia",
+                "Star Mark",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "das boot recording",
+                "Abbey Road Studios",
+                "Air Studios",
+                "Astoria",
+                "Church Of The Holy Spirit",
+                "Gallery Studios",
+                "Medina Studio"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Psychedelic Rock",
+                "Prog Rock",
+                "Pop Rock"
+            ],
+            "id": 8111116,
+            "barcode": [
+                "4 607147 918739 >",
+                "4607147918739",
+                "35568-1",
+                "35568-2",
+                "VFD98780"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/8111116",
+            "catno": "35568 1/2",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/FoCrHhmmYEzFfAbb4gpeFnIpTDc=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-8111116-1455357511-3830.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/WqgdMHXxb6ul3axGLeIfM7oy_Fw=/fit-in/600x541/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-8111116-1455357511-3830.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/8111116",
+            "community": {
+                "want": 16,
+                "have": 35
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                },
+                {
+                    "name": "DVD",
+                    "qty": "1",
+                    "descriptions": [
+                        "DVD-Video",
+                        "NTSC",
+                        "Album"
+                    ]
+                },
+                {
+                    "name": "All Media",
+                    "qty": "1",
+                    "text": "Digipak",
+                    "descriptions": [
+                        "Deluxe Edition",
+                        "Unofficial Release"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "Box Set",
+                "Album",
+                "Deluxe Edition",
+                "CD",
+                "Album",
+                "DVD",
+                "DVD-Video",
+                "NTSC",
+                "Album"
+            ],
+            "label": [
+                "Columbia"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock",
+                "Pop Rock"
+            ],
+            "id": 9158560,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/9158560",
+            "catno": "888751232723",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/1pNcg3a_gsLNNYYLgA6OWJZ4sfU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-9158560-1475812370-3773.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/ZrG8D5XrA6s8gDM-j9-LQPreRKQ=/fit-in/450x527/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-9158560-1475812370-3773.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/9158560",
+            "community": {
+                "want": 30,
+                "have": 192
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "Box Set",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album",
+                        "Deluxe Edition"
+                    ]
+                },
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                },
+                {
+                    "name": "DVD",
+                    "qty": "1",
+                    "descriptions": [
+                        "DVD-Video",
+                        "NTSC",
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Russia",
+            "year": "2015",
+            "format": [
+                "Blu-ray-R",
+                "Blu-ray Audio",
+                "Unofficial Release"
+            ],
+            "label": [
+                "Columbia",
+                "Sony Music"
+            ],
+            "type": "release",
+            "genre": [
+                "Jazz",
+                "Rock",
+                "Non-Music"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock",
+                "Cool Jazz"
+            ],
+            "id": 8460122,
+            "barcode": [
+                "8 88751 23262 4",
+                "888751232624",
+                "LC 00162",
+                "BIEM/GEMA",
+                "88875123282"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/8460122",
+            "catno": "88875123262",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/BJ3xQpdyeGLIEdBTsAzL_WoISDA=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-8460122-1482563315-6246.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/CH8ckJ1t0DhLSFdCi1_4g6tUIr8=/fit-in/600x334/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-8460122-1482563315-6246.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/8460122",
+            "community": {
+                "want": 16,
+                "have": 14
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "Blu-ray-R",
+                    "qty": "1",
+                    "descriptions": [
+                        "Blu-ray Audio",
+                        "Unofficial Release"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Japan",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "Sony Records Int'l",
+                "Sony Music Labels Inc."
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock"
+            ],
+            "id": 7416738,
+            "barcode": [
+                "4547366246797",
+                "IFPI L280",
+                "IFPI 4564",
+                "SICP-30819 1 MASTER",
+                "JASRAC"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/7416738",
+            "catno": "SICP-30819",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/ffce0Se6-1l3RrTKpmyECAFvfwc=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7416738-1443711947-4789.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/kkxtbheO_nHz2q-UphnSHYq0rhg=/fit-in/600x505/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7416738-1443711947-4789.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7416738",
+            "community": {
+                "want": 25,
+                "have": 39
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "text": "Blue-Spec CD2 Digipak",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "File",
+                "AAC",
+                "Album",
+                "Deluxe Edition",
+                "Stereo",
+                "File",
+                "MPEG-4 Video",
+                "Album",
+                "Deluxe Edition",
+                "Stereo"
+            ],
+            "label": [
+                "David Gilmour Music Ltd."
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock"
+            ],
+            "id": 14187653,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/14187653",
+            "catno": "none",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/NOXd9Dr-VWdKEpmkjrORgxNTbo8=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-14187653-1569508329-6102.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/CwtxTQwKWWg1HELIgz2JoRkWhBY=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-14187653-1569508329-6102.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/14187653",
+            "community": {
+                "want": 3,
+                "have": 11
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "14",
+                    "text": "256 kbps",
+                    "descriptions": [
+                        "AAC",
+                        "Album",
+                        "Deluxe Edition",
+                        "Stereo"
+                    ]
+                },
+                {
+                    "name": "File",
+                    "qty": "6",
+                    "text": "243 kbps",
+                    "descriptions": [
+                        "MPEG-4 Video",
+                        "Album",
+                        "Deluxe Edition",
+                        "Stereo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Japan",
+            "year": "2020",
+            "format": [
+                "CD",
+                "Album",
+                "Promo",
+                "Reissue"
+            ],
+            "label": [
+                "Sony Records Int'l",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Astoria",
+                "Air Studios",
+                "Gallery Studios",
+                "Abbey Road Studios",
+                "Church Of The Holy Spirit",
+                "Medina Studio",
+                "Columbia Records",
+                "Sony Music Entertainment",
+                "Sony Music Labels Inc."
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock"
+            ],
+            "id": 16775598,
+            "barcode": [
+                "4 547366 393255",
+                "4547366393255"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/16775598",
+            "catno": "SICP-31250",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/qwMDEeEmZV6q7VkUCsOvZrRY20U=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-16775598-1609754092-8824.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/nO5kVB009N7bpmgLDF6natFBnBU=/fit-in/600x567/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-16775598-1609754092-8824.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/16775598",
+            "community": {
+                "want": 2,
+                "have": 0
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "text": "Cardboard Sleeve Blu-spec CD2",
+                    "descriptions": [
+                        "Album",
+                        "Promo",
+                        "Reissue"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label": [
+                "Columbia",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "David Gilmour",
+                "Polly Samson",
+                "Columbia Records",
+                "Columbia Records",
+                "Columbia Records",
+                "Sony Music Entertainment",
+                "Gallery Studios",
+                "The Village Recorder",
+                "Astoria",
+                "Medina Studio",
+                "Abbey Road Studios",
+                "Air Lyndhurst Hall",
+                "Church Of The Holy Spirit",
+                "das boot recording",
+                "Pink Floyd Music Publishers Ltd.",
+                "Imagem UK Ltd.",
+                "Sixi\u00e8me Son \u00c8dition",
+                "Record Technology Incorporated"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock"
+            ],
+            "id": 7489321,
+            "barcode": [
+                "888751232914",
+                "8 88751 23291 4",
+                "AL 8875123291 24463.1(3)... BG",
+                "BL 8875123291 24463.2(3).. BG",
+                "C-129373 / AL8875123291",
+                "C-129373 / BL8875123291",
+                "88875123291",
+                "88875123291-I1",
+                "88875123291 S1"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/7489321",
+            "catno": "88875123291",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/xQY4wH-fohkHIX_1lbv4BQJ-kM8=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7489321-1442578034-5924.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/cvogMxBZPkWZ_CkrfUxLoBmakOM=/fit-in/600x625/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7489321-1442578034-5924.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7489321",
+            "community": {
+                "want": 229,
+                "have": 2402
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "LP",
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Europe",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "Columbia",
+                "Sony Music",
+                "David Gilmour Music Ltd.",
+                "Columbia Records",
+                "Sony Music Entertainment",
+                "David Gilmour Music Ltd.",
+                "Sony Music Entertainment",
+                "The Village Recorder",
+                "Gallery Studios",
+                "Astoria",
+                "Medina Studio",
+                "Abbey Road Studios",
+                "Gallery Studios",
+                "Air Studios",
+                "Church Of The Holy Spirit",
+                "das boot recording",
+                "Pink Floyd Music Publishers Ltd.",
+                "Imagem UK Ltd.",
+                "Sixi\u00e8me Son \u00c8dition",
+                "Polly Samson",
+                "David Gilmour",
+                "Pink Floyd Music Publishers Ltd.",
+                "Imagem UK Ltd.",
+                "Sony DADC"
+            ],
+            "type": "release",
+            "genre": [
+                "Jazz",
+                "Rock",
+                "Pop"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock"
+            ],
+            "id": 7492652,
+            "barcode": [
+                "8 88751 23262 4",
+                "888751232624",
+                "LC 00162",
+                "BIEM/GEMA",
+                "Sony DADC IFPI L558 A0102550601-0101 28",
+                "IFPI L558",
+                "IFPI 94Z8",
+                "Sony DADC IFPI L558 A0102550601-0101 28 B03",
+                "IFPI L558",
+                "IFPI 941S",
+                "Sony DADC IFPI L558 A0102550601-0101 28 C01",
+                "IFPI L558",
+                "IFPI 946R",
+                "Sony DADC IFPI L558 A0102550601-0101 28 A00",
+                "IFPI L558",
+                "IFPI 94Z6",
+                "Sony DADC IFPI L558 A0102550601-0101 28 A01",
+                "IFPI L558",
+                "IFPI 94Z5",
+                "Sony DADC IFPI L558 A0102550601-0101 38 A02",
+                "IFPI L558",
+                "IFPI 94V4",
+                "Sony DADC IFPI L558 A0102550601-0101 28 A01",
+                "IFPI L558",
+                "IFPI 945R",
+                "Sony DADC IFPI L558 A0102550601-0101 28 C02",
+                "IFPI L558",
+                "IFPI 94Z6",
+                "Sony DADC IFPI L558 A0102550601-0101 28 A00",
+                "IFPI L558",
+                "IFPI 942Q",
+                "Sony DADC IFPI L558 A0102550601-0101 28",
+                "IFPI L558",
+                "IFPI 94V7",
+                "Sony DADC IFPI L558 A0102550601-0101 38",
+                "IFPI L558",
+                "IFPI 941S"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/7492652",
+            "catno": "88875123262",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/Nc_UMPWmUvYdav7s2w7i6O_CQzQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7492652-1475802979-2513.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/91NOH598NYFkidDwFuQsTFyDoAw=/fit-in/600x519/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7492652-1475802979-2513.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7492652",
+            "community": {
+                "want": 60,
+                "have": 1751
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "text": "Digibook",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Brazil",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "Columbia",
+                "Sony Music",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Columbia Records",
+                "Sonopress Rimo Ind\u00fastria E Com\u00e9rcio Fonogr\u00e1fica S.A.",
+                "Sonopress Rimo Ind\u00fastria E Com\u00e9rcio Fonogr\u00e1fica S.A.",
+                "Sony Music Entertainment (Brasil) Ltda."
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock"
+            ],
+            "id": 8376501,
+            "barcode": [
+                "888751232624",
+                "AA0004000"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/8376501",
+            "catno": "88875123262",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/YJ7UToJUnJ7P2MyHiuwH3Y0tvwQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-8376501-1460402682-7905.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/xNfGM5Z5lguic2YpZY90PzwQDOY=/fit-in/564x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-8376501-1460402682-7905.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/8376501",
+            "community": {
+                "want": 19,
+                "have": 166
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Japan",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Album",
+                "Limited Edition",
+                "DVD",
+                "Album"
+            ],
+            "label": [
+                "Sony Records Int'l",
+                "Sony Music Labels Inc.",
+                "Sony Music Entertainment",
+                "Columbia Records",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Astoria",
+                "Medina Studio",
+                "Abbey Road Studios",
+                "Gallery Studios",
+                "das boot recording"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock",
+                "Pop"
+            ],
+            "style": [
+                "Prog Rock",
+                "Pop Rock"
+            ],
+            "id": 10685947,
+            "barcode": [
+                "4 547366 246803",
+                "SICP-30817 1 MASTER",
+                "IFPI L280",
+                "IFPI 4564",
+                "SICP-30818 A0 1",
+                "SICP-30818 A1 1",
+                "IFPI L271",
+                "45TD",
+                "JASRAC",
+                "8 88751 23272 3"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/10685947",
+            "catno": "SICP 30817~8",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/KrZAJ88MIceITBhQbO09wA-mrTI=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-10685947-1582857008-7914.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/zhNB0lZd1sxQ74WtP7HMUw183vQ=/fit-in/600x704/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-10685947-1582857008-7914.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/10685947",
+            "community": {
+                "want": 18,
+                "have": 26
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "text": "Blu-Spec CD2",
+                    "descriptions": [
+                        "Album",
+                        "Limited Edition"
+                    ]
+                },
+                {
+                    "name": "DVD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Europe",
+            "year": "2015",
+            "format": [
+                "File",
+                "MP3"
+            ],
+            "label": [
+                "Columbia"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock"
+            ],
+            "id": 9200296,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/9200296",
+            "catno": "88875123291-11",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/dY1w67ZiiijyonQxmicwf6Ohk-k=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-9200296-1478164489-7860.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/eT0JVomV_aA5ZxsWStEDWN_1dGU=/fit-in/600x753/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-9200296-1478164489-7860.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/9200296",
+            "community": {
+                "want": 10,
+                "have": 22
+            },
+            "format_quantity": 0,
+            "formats": [
+                {
+                    "name": "File",
+                    "qty": "10",
+                    "text": "320 kbps",
+                    "descriptions": [
+                        "MP3"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Europe",
+            "year": "2015",
+            "format": [
+                "CDr",
+                "Album",
+                "Promo"
+            ],
+            "label": [
+                "Columbia",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Columbia Records",
+                "Das Boot Studio, Stockholm",
+                "Sony DADC"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [],
+            "id": 7738159,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/7738159",
+            "catno": "none",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/R5pkEuSGvsdnFKyW9plzNE7RVS4=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7738159-1447763324-6762.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/PwmFT8TGj9vHN5Rm47mNMiFkPJA=/fit-in/600x621/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7738159-1447763324-6762.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7738159",
+            "community": {
+                "want": 30,
+                "have": 2
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CDr",
+                    "qty": "1",
+                    "text": "Card Sleeve",
+                    "descriptions": [
+                        "Album",
+                        "Promo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Japan",
+            "year": "2015",
+            "format": [
+                "CDr",
+                "Single",
+                "Promo"
+            ],
+            "label": [
+                "Sony Music Entertainment (Japan) Inc."
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Pop Rock",
+                "Classic Rock"
+            ],
+            "id": 10313656,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 872009,
+            "master_url": "https://api.discogs.com/masters/872009",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/10313656",
+            "catno": "none",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/exs5r0MhCqOKMKDO-sFt3bTIbuU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-10313656-1495159149-8346.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/NnsShFJd0pQOMl6NScfTRMVAAP0=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-10313656-1495159149-8346.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/10313656",
+            "community": {
+                "want": 13,
+                "have": 1
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CDr",
+                    "qty": "1",
+                    "descriptions": [
+                        "Single",
+                        "Promo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Russia",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Album",
+                "Unofficial Release"
+            ],
+            "label": [
+                "Columbia",
+                "Das Boot Studio, Stockholm",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Astoria",
+                "Medina Studio",
+                "Abbey Road Studios",
+                "Gallery Studios",
+                "Sony DADC"
+            ],
+            "type": "release",
+            "genre": [
+                "Jazz",
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Cool Jazz"
+            ],
+            "id": 7494689,
+            "barcode": [
+                "888751232624",
+                "8 8871 23262 4",
+                "Sony DADC  Gallery Studios 28 A01",
+                "Sony DADC  A0102550601-0101 28",
+                "IFPI L558",
+                "LC 00162",
+                "BIEM/ GEMA"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/7494689",
+            "catno": "88875123262",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/_u8jZPXR411--FDN4y46-MCXmJw=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7494689-1442851770-7460.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/LW0O6DOqhkQqcGtJQV_0HAG8Qi8=/fit-in/600x593/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7494689-1442851770-7460.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7494689",
+            "community": {
+                "want": 16,
+                "have": 47
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album",
+                        "Unofficial Release"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "UK & Europe",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Single",
+                "Promo"
+            ],
+            "label": [
+                "Columbia",
+                "Sony Music",
+                "David Gilmour Music Ltd.",
+                "Columbia Records",
+                "David Gilmour Music Ltd.",
+                "Sony Music Entertainment",
+                "Sony Music Entertainment International Services GmbH",
+                "Pink Floyd Music Publishers Ltd.",
+                "Imagem London Limited",
+                "Sixi\u00e8me Son \u00c8dition"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Pop Rock",
+                "Classic Rock"
+            ],
+            "id": 7289871,
+            "barcode": [
+                "BIEM/GEMA",
+                "LC 00162"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 872009,
+            "master_url": "https://api.discogs.com/masters/872009",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/7289871",
+            "catno": "88875137972",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/XJK8ywl_EnqU95WFXdZ4UZFkHh0=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7289871-1439752952-3822.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/I4KI2noXska7p8Cxm4f4PQHHFLE=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7289871-1439752952-3822.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7289871",
+            "community": {
+                "want": 35,
+                "have": 24
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Single",
+                        "Promo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Brazil",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "Columbia",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Astoria",
+                "Air Studios",
+                "Gallery Studios",
+                "Abbey Road Studios",
+                "Church Of The Holy Spirit",
+                "Medina Studio",
+                "das boot recording",
+                "Columbia Records",
+                "Pink Floyd Music Publishers Ltd.",
+                "Sony Music Entertainment (Brasil) Ind. E Com. Ltda.",
+                "Sonopress-Rimo da Amaz\u00f4nia Ind\u00fastria e Com\u00e9rcio Fonogr\u00e1fica Ltda.",
+                "Sony Music Entertainment (Brasil) Ltda."
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock"
+            ],
+            "id": 15694724,
+            "barcode": [
+                "8 88751 23262 4"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/15694724",
+            "catno": "88875123291",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/oqQe7BWokyrp_AkqR8zdOnhTtwo=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-15694724-1596050059-1293.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/rp2oCjfosXu28GT3oa2R3NrJ1XU=/fit-in/600x551/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-15694724-1596050059-1293.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/15694724",
+            "community": {
+                "want": 4,
+                "have": 17
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "text": "Digipak",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Europe",
+            "year": "2015",
+            "format": [
+                "Vinyl",
+                "LP",
+                "Album"
+            ],
+            "label": [
+                "Columbia",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Astoria",
+                "Air Studios",
+                "Gallery Studios",
+                "Abbey Road Studios",
+                "Church Of The Holy Spirit",
+                "Medina Studio",
+                "Gallery Studios",
+                "The Village Recorder",
+                "Das Boot Recording",
+                "Record Industry",
+                "Columbia Records",
+                "Pink Floyd Music Publishers Ltd.",
+                "Sony Music Entertainment"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock"
+            ],
+            "id": 7252492,
+            "barcode": [
+                "8 88751 23291 4",
+                "888751232914",
+                "LC00162",
+                "BIEM/GEMA",
+                "88875123291",
+                "AL 88875123291 BG 14041 1A",
+                "BL 88875123291 BG 14041 1B"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/7252492",
+            "catno": "88875123291",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/Z0XSJgYd06I8t4PTX1SSfq1Oq7s=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7252492-1451728342-4400.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/d3PByecUr_w9SC1PXQ3s1esqf_s=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7252492-1451728342-4400.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7252492",
+            "community": {
+                "want": 444,
+                "have": 6720
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "descriptions": [
+                        "LP",
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "UK & Europe",
+            "year": "2015",
+            "format": [
+                "Box Set",
+                "Deluxe Edition",
+                "CD",
+                "Album",
+                "DVD",
+                "DVD-Video",
+                "NTSC",
+                "Album"
+            ],
+            "label": [
+                "Columbia",
+                "David Gilmour Music Ltd.",
+                "Columbia Records",
+                "Sony Music Entertainment",
+                "Sony DADC",
+                "Sony DADC",
+                "David Gilmour Music Ltd.",
+                "Pink Floyd Music Publishers Ltd.",
+                "Imagem UK Ltd.",
+                "Sixi\u00e8me Son \u00c8dition",
+                "Abbey Road Studios",
+                "Air Studios",
+                "Astoria",
+                "Church Of The Holy Spirit",
+                "Gallery Studios",
+                "Medina Studio",
+                "das boot recording"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Psychedelic Rock",
+                "Prog Rock",
+                "Pop Rock"
+            ],
+            "id": 7493149,
+            "barcode": [
+                "8 8875123272 3",
+                "888751232723",
+                "LC 00612",
+                "BIEM / GEMA",
+                "88875123262",
+                "88875123272",
+                "Sony DADC A0102550601-0101 28",
+                "IFPI L558",
+                "IFPI 942Q",
+                "IFPI 94V7",
+                "IFPI 94Z8",
+                "Sony DADC A0102553104-A911 17",
+                "IFPI L557",
+                "IFPI 949Z",
+                "IFPI 946U"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/7493149",
+            "catno": "88875123272",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/WeY5_0NxtnwfmpwzuJMALc36WhU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7493149-1559928797-8460.png.jpg",
+            "cover_image": "https://img.discogs.com/aW2lwsHph9sGgUdD-5pCc43ZoaQ=/fit-in/600x701/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7493149-1559928797-8460.png.jpg",
+            "resource_url": "https://api.discogs.com/releases/7493149",
+            "community": {
+                "want": 42,
+                "have": 950
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "Box Set",
+                    "qty": "1",
+                    "descriptions": [
+                        "Deluxe Edition"
+                    ]
+                },
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                },
+                {
+                    "name": "DVD",
+                    "qty": "1",
+                    "descriptions": [
+                        "DVD-Video",
+                        "NTSC",
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "Box Set",
+                "Deluxe Edition",
+                "CD",
+                "Album",
+                "Blu-ray",
+                "Multichannel"
+            ],
+            "label": [
+                "Columbia",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Gallery Studios",
+                "The Village Recorder",
+                "Astoria",
+                "Medina Studio",
+                "Abbey Road Studios",
+                "Gallery Studios",
+                "Air Lyndhurst Studios",
+                "Church Of The Holy Spirit",
+                "das boot recording"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock"
+            ],
+            "id": 7489987,
+            "barcode": [
+                "8 8875123282 2",
+                "DIDX -1075839   1",
+                "IFPI L328",
+                "IFPI 50BC",
+                "88875123262 JK1",
+                "BVSS - 1234980A1 2  A03",
+                "IFPI L323",
+                "IFPI OWXI",
+                "88875123282 JK1"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/7489987",
+            "catno": "88875123272 DC1",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/hwbmZW9uuvlPy3w8R4GHTNKS8k0=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7489987-1442544551-2876.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/bF2uXUe7Cf1BULZD2dLyAKWJhQ4=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7489987-1442544551-2876.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7489987",
+            "community": {
+                "want": 54,
+                "have": 629
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "Box Set",
+                    "qty": "1",
+                    "descriptions": [
+                        "Deluxe Edition"
+                    ]
+                },
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                },
+                {
+                    "name": "Blu-ray",
+                    "qty": "1",
+                    "text": "Audio - Visual",
+                    "descriptions": [
+                        "Multichannel"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "Box Set",
+                "Deluxe Edition",
+                "CD",
+                "Album",
+                "DVD",
+                "DVD-Video",
+                "NTSC"
+            ],
+            "label": [
+                "Columbia",
+                "Columbia Records",
+                "Columbia Records",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Polly Samson",
+                "David Gilmour",
+                "Pink Floyd Music Publishers Ltd.",
+                "Brian Rasic",
+                "Kevin Westenberg",
+                "Pink Floyd Music Publishers Ltd.",
+                "Imagem UK Ltd.",
+                "Sixi\u00e8me Son \u00c9dition",
+                "Abbey Road Studios",
+                "Air Studios",
+                "Astoria",
+                "Church Of The Holy Spirit",
+                "Gallery Studios",
+                "Medina Studio",
+                "das boot recording",
+                "Gallery Studios",
+                "The Village Recorder",
+                "Sony DADC",
+                "Sony DADC",
+                "Sony DADC"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Psychedelic Rock",
+                "Prog Rock",
+                "Pop Rock"
+            ],
+            "id": 10906436,
+            "barcode": [
+                "8 88751 23272 3",
+                "888751232723",
+                "DIDX-1075839 1 A02",
+                "IFPI L328",
+                "IFPI 50BP",
+                "DIDX-1075839 1 A07",
+                "IFPI L328",
+                "IFPI 50BG",
+                "DIDX-1075839 1 B01",
+                "IFPI L328",
+                "IFPI 50BE",
+                "88875123262",
+                "DVDL-6851380A1 1 B03",
+                "IFPI L331",
+                "IFPI QW7A",
+                "DVDL-6851380A1 1 B02",
+                "IFPI L331",
+                "IFPI QW96",
+                "DVDL-6851380A1 1 B05",
+                "IFPI L331",
+                "IFPI QW02",
+                "DVDL-6851380B1 1 A01",
+                "IFPI L332",
+                "IFPI QW7B",
+                "DVDL-6851380B1 1 A04",
+                "IFPI L332",
+                "IFPI QW96",
+                "DVDL-6851380B1 1",
+                "IFPI L332",
+                "IFPI QW02",
+                "88875123272",
+                "88875123272 S3",
+                "88875123272 S1",
+                "88875123272 BK1",
+                "88875123272 BK2",
+                "88875123262 JK1",
+                "88875123272 JK1",
+                "88875123272 I1",
+                "88875123272 I2"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/10906436",
+            "catno": "88875123272 DC1",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/tgCMmJryB7h_cJMh8XPDfDPUacQ=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-10906436-1618082789-1263.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/KbQhJyftncEFx0IATGMfXWDVpeA=/fit-in/600x698/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-10906436-1618082789-1263.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/10906436",
+            "community": {
+                "want": 28,
+                "have": 184
+            },
+            "format_quantity": 2,
+            "formats": [
+                {
+                    "name": "Box Set",
+                    "qty": "1",
+                    "descriptions": [
+                        "Deluxe Edition"
+                    ]
+                },
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                },
+                {
+                    "name": "DVD",
+                    "qty": "1",
+                    "descriptions": [
+                        "DVD-Video",
+                        "NTSC"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "UK & Europe",
+            "year": "2015",
+            "format": [
+                "CDr",
+                "Single",
+                "Promo"
+            ],
+            "label": [
+                "Columbia"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Pop Rock",
+                "Classic Rock"
+            ],
+            "id": 7798384,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 872009,
+            "master_url": "https://api.discogs.com/masters/872009",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/7798384",
+            "catno": "none",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/_Xt1ujT6cxKq2lLxUhmeFgq-v2s=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7798384-1448994436-2294.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/T6OiIavPuRZv6NiE1vSqhvm4uSA=/fit-in/600x528/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7798384-1448994436-2294.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7798384",
+            "community": {
+                "want": 17,
+                "have": 1
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CDr",
+                    "qty": "1",
+                    "descriptions": [
+                        "Single",
+                        "Promo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Mexico",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "Columbia",
+                "Sony Music",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Columbia Records",
+                "Sony Music Entertainment M\u00e9xico, S.A. De C.V.",
+                "Sony Music Entertainment M\u00e9xico, S.A. De C.V."
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock"
+            ],
+            "id": 12852441,
+            "barcode": [
+                "8 88751 23262 4",
+                "888751232624 arvato 64301 100522772",
+                "IFPI LP74",
+                "IFPI 0802"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/12852441",
+            "catno": "888751232624",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/ymZ7O6WK5QnB2XUlLaBpBuSron8=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-12852441-1624988381-7845.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/ZyD3USNbPy2GaJM0pvUTKPCXwf4=/fit-in/600x538/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-12852441-1624988381-7845.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/12852441",
+            "community": {
+                "want": 12,
+                "have": 97
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "text": "Digibook",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Japan",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Album",
+                "Promo",
+                "Stereo"
+            ],
+            "label": [
+                "Sony Records Int'l",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Sony Music Labels Inc."
+            ],
+            "type": "release",
+            "genre": [
+                "Rock",
+                "Pop"
+            ],
+            "style": [],
+            "id": 10054911,
+            "barcode": [
+                "4547366246797",
+                "JASRAC"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/10054911",
+            "catno": "SICP-30819",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/XDAUVbL78XiCMf3_7wVeokYLxYk=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-10054911-1492089412-7205.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/JN38ULP4YnFBrPcU8mHyuseBqQA=/fit-in/600x505/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-10054911-1492089412-7205.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/10054911",
+            "community": {
+                "want": 17,
+                "have": 6
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "text": "Blue-Spec CD2",
+                    "descriptions": [
+                        "Album",
+                        "Promo",
+                        "Stereo"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Taiwan",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "Sony Music"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock"
+            ],
+            "id": 19106098,
+            "barcode": [
+                "8 88751 23262 4"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/19106098",
+            "catno": "88875123262",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/C6K-8ChZwMmpLm9VQOgQVzb9krg=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-19106098-1623653330-4688.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/bRCq26TivCKnjsB62U2MArSKTrc=/fit-in/600x533/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-19106098-1623653330-4688.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/19106098",
+            "community": {
+                "want": 0,
+                "have": 0
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "text": "Digibook",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Argentina",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Columbia",
+                "Astoria",
+                "Air Studios",
+                "Gallery Studios",
+                "Abbey Road Studios",
+                "Church Of The Holy Spirit",
+                "Medina Studio",
+                "Das Boot Studio, Stockholm",
+                "Sony Music Entertainment (Argentina) S.A."
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock"
+            ],
+            "id": 8279140,
+            "barcode": [
+                "A.A.D.I.-C.A.P.I.F",
+                "S.A.D.A.I.C.-B.I.E.M.",
+                "8 88751 23262 4"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/8279140",
+            "catno": "",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/dxYxAKJeWTj7hlCSJUP8IDUkg6Q=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-8279140-1458509057-9912.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/ygMt1ybxAyBIF8xVGOlWmIJ8dPo=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-8279140-1458509057-9912.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/8279140",
+            "community": {
+                "want": 18,
+                "have": 34
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Japan",
+            "year": "2020",
+            "format": [
+                "CD",
+                "Album",
+                "Reissue"
+            ],
+            "label": [
+                "Sony Records Int'l",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Astoria",
+                "Air Studios",
+                "Gallery Studios",
+                "Abbey Road Studios",
+                "Church Of The Holy Spirit",
+                "Medina Studio",
+                "Columbia Records",
+                "Sony Music Entertainment",
+                "Sony Music Labels Inc."
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock",
+                "Psychedelic Rock"
+            ],
+            "id": 16058665,
+            "barcode": [
+                "4 547366 393255",
+                "4547366393255",
+                "SICP-31250"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/16058665",
+            "catno": "SICP-31250",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/DLsEJp3AFaMDcuywknpMMMdaRnU=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-16058665-1602699380-2876.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/QU_F4PTsPWHPVCqMsAlZO5J7JNE=/fit-in/500x501/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-16058665-1602699380-2876.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/16058665",
+            "community": {
+                "want": 6,
+                "have": 25
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "text": "Cardboard Sleeve Blu-spec CD2",
+                    "descriptions": [
+                        "Album",
+                        "Reissue"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "US",
+            "year": "2015",
+            "format": [
+                "CD",
+                "Album"
+            ],
+            "label": [
+                "Columbia",
+                "David Gilmour Music Ltd.",
+                "David Gilmour Music Ltd.",
+                "Columbia Records",
+                "Columbia Records",
+                "Astoria",
+                "Medina Studio",
+                "Abbey Road Studios",
+                "Gallery Studios",
+                "Air Lyndhurst Hall",
+                "das boot recording",
+                "Pink Floyd Music Publishers Ltd.",
+                "Sony DADC"
+            ],
+            "type": "release",
+            "genre": [
+                "Jazz",
+                "Rock"
+            ],
+            "style": [
+                "Psychedelic Rock",
+                "Prog Rock"
+            ],
+            "id": 7484485,
+            "barcode": [
+                "888751232624",
+                "8 88751 23262 4",
+                "IFPI L328",
+                "IFPI 50BJ",
+                "IFPI 50BC",
+                "IFPI 50BM",
+                "IFPI 50BR",
+                "DIDX-1075839 1 ",
+                "DIDX-1075839 1 B01",
+                "DIDX-1075839 1 A09",
+                "DIDX-1075839 1 A12",
+                "DIDX-1075839 1 B04"
+            ],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 880891,
+            "master_url": "https://api.discogs.com/masters/880891",
+            "uri": "/David-Gilmour-Rattle-That-Lock/release/7484485",
+            "catno": "88875123262 PZ1",
+            "title": "David Gilmour - Rattle That Lock",
+            "thumb": "https://img.discogs.com/mn8R96MUi0sewxXZQVriMRs5t9s=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-7484485-1526439159-3028.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/F3b1PUzvO6l51wJC6eB2wt1ZPSI=/fit-in/599x512/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7484485-1526439159-3028.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/7484485",
+            "community": {
+                "want": 42,
+                "have": 836
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "CD",
+                    "qty": "1",
+                    "text": "Digibook",
+                    "descriptions": [
+                        "Album"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Japan",
+            "year": "2015",
+            "format": [
+                "CDr",
+                "Unofficial Release",
+                "DVDr",
+                "DVD-Video",
+                "NTSC",
+                "Unofficial Release"
+            ],
+            "label": [
+                "Blue Cafe",
+                "Ippodromo del Visarno, Florence",
+                "Oberhausen Arena"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Prog Rock"
+            ],
+            "id": 13837076,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/David-Gilmour-Rattle-That-Lock-Europe/release/13837076",
+            "catno": "Blue Cafe-363A/B/C",
+            "title": "David Gilmour - Rattle That Lock Europe",
+            "thumb": "https://img.discogs.com/ByN9525iPrNL-YHMCPPAIyhUvtk=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-13837076-1562244967-7801.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/7Acw6_cerLcZ3QdZR6I3B3I4OZc=/fit-in/600x477/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-13837076-1562244967-7801.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/13837076",
+            "community": {
+                "want": 1,
+                "have": 0
+            },
+            "format_quantity": 3,
+            "formats": [
+                {
+                    "name": "CDr",
+                    "qty": "2",
+                    "descriptions": [
+                        "Unofficial Release"
+                    ]
+                },
+                {
+                    "name": "DVDr",
+                    "qty": "1",
+                    "descriptions": [
+                        "DVD-Video",
+                        "NTSC",
+                        "Unofficial Release"
+                    ]
+                }
+            ]
+        },
+        {
+            "country": "Europe",
+            "year": "2016",
+            "format": [
+                "Vinyl",
+                "LP",
+                "Limited Edition",
+                "Unofficial Release"
+            ],
+            "label": [
+                "Vazzas Records"
+            ],
+            "type": "release",
+            "genre": [
+                "Rock"
+            ],
+            "style": [
+                "Classic Rock"
+            ],
+            "id": 9142103,
+            "barcode": [],
+            "user_data": {
+                "in_wantlist": false,
+                "in_collection": false
+            },
+            "master_id": 0,
+            "master_url": null,
+            "uri": "/David-Gilmour-Keep-On-Rattle-That-Lock/release/9142103",
+            "catno": "DG032716-1",
+            "title": "David Gilmour - Keep On ! Rattle That Lock",
+            "thumb": "https://img.discogs.com/_xuES5vMtKkEw2sUaZ_acES3Z9s=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-9142103-1475505217-8177.jpeg.jpg",
+            "cover_image": "https://img.discogs.com/zkiW8i_pXFYaUPuag2LKGJAhqWE=/fit-in/600x602/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-9142103-1475505217-8177.jpeg.jpg",
+            "resource_url": "https://api.discogs.com/releases/9142103",
+            "community": {
+                "want": 16,
+                "have": 62
+            },
+            "format_quantity": 1,
+            "formats": [
+                {
+                    "name": "Vinyl",
+                    "qty": "1",
+                    "text": "Coloured Vinyl",
+                    "descriptions": [
+                        "LP",
+                        "Limited Edition",
+                        "Unofficial Release"
+                    ]
+                }
+            ]
+        }
+    ]
+}

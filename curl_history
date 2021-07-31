@@ -1,0 +1,13 @@
+#curl https://api.discogs.com/release/5364191
+# 2005  curl https://api.discogs.com/release/5364191 --user-agent "xyzzy/1.0"
+# 2006  curl https://api.discogs.com/releases/5364191 --user-agent "xyzzy/1.0"
+# 2007  curl https://api.discogs.com/releases/5364191 --user-agent "xyzzy/1.0" >~/d
+# 2009  curl https://api.discogs.com/releases/5364191 --user-agent "xyzzy/1.0" | python -m json.tool
+# 2010  curl https://api.discogs.com/releases/5364191 --user-agent "xyzzy/1.0" | python -m json.tool | less
+# 2330  curl https://api.discogs.com/releases/5364191 --user-agent "xyzzy/1.0" | python -m json.tool | less
+# 2331  curl https://api.discogs.com/database/search'?q=aphexia&type=release --user-agent "xyzzy/1.0" | python -m json.tool | less
+# 2332  curl https://api.discogs.com/database/search'?q=aphexia&type=release' --user-agent "xyzzy/1.0" | python -m json.tool | less
+# 2333  curl https://api.discogs.com/database/search'?q=aphexia&type=release' --user-agent "xyzzy/1.0" -H "Authorization: Discogs token=hmFBGgDXqpxTckvxbzShCTfATuRDrFQiCMfXJrgR" | python -m json.tool | less
+# 2334  curl https://api.discogs.com/database/search'?q=aphexia&type=release&token=hmFBGgDXqpxTckvxbzShCTfATuRDrFQiCMfXJrgR' --user-agent 'tlac/0.0 +https://github.com/Canar' | python -m json.tool | less
+# 2344  curl https://api.discogs.com/database/search'?artist=st. germain&album=st. germain&type=release&token=hmFBGgDXqpxTckvxbzShCTfATuRDrFQiCMfXJrgR' --user-agent 'tlac/0.0 +https://github.com/Canar' | python -m json.tool | less
+# 2345  curl https://api.discogs.com/database/search'?artist=st. germain&release_title=st. germain&type=release&token=hmFBGgDXqpxTckvxbzShCTfATuRDrFQiCMfXJrgR' --user-agent 'tlac/0.0 +https://github.com/Canar' | python -m json.tool | less

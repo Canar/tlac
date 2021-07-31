@@ -1,0 +1,7 @@
+#!/bin/bash
+f="discogs/search-$1-$2.json"
+ua='tlac/0.0 +https://github.com/Canar'
+t="&token=hmFBGgDXqpxTckvxbzShCTfATuRDrFQiCMfXJrgR"
+curl https://api.discogs.com/database/search"?artist=$1&release_title=$2&type=release""$t" --user-agent "$ua" |
+	python -m json.tool >"$f"
+./search "$f"

@@ -1,0 +1,442 @@
+#!/usr/bin/env ruby
+require 'io/console'
+require 'shellwords'
+require 'pp'
+require 'readline'
+
+# Authorities
+# https://wiki.hydrogenaud.io/index.php?title=Tag_Mapping ** most compatible, FLAC-specific
+# https://www.matroska.org/technical/tagging.html ** most comprehensive, not FLAC
+
+# Misc
+# https://wiki.xiph.org/VorbisComment
+# https://wiki.xiph.org/Field_names
+#   http://age.hobba.nl/audio/mirroredpages/ogg-tagging.html
+#   https://web.archive.org/web/20100503023131/http://reallylongword.org/vorbiscomment/
+# https://xiph.org/vorbis/doc/v-comment.html
+# http://age.hobba.nl/audio/tag_frame_reference.html
+
+# ffmpeg -i [file] -f s16le - | rhash -C -
+#   - calculates EAC-compliant CRC32
+#
+def do_readline prep,prompt
+  Readline.pre_input_hook = -> do
+    Readline.insert_text(prep)
+    Readline.redisplay
+    Readline.pre_input_hook=nil
+  end
+  Readline.readline(prompt)
+end
+
+def do_run c
+  print "Executing '#{c}'... "
+  if system(c)
+    puts " SUCCESS!"
+    return true
+  end
+  puts " FAILURE! Bailing out!"
+  return false
+end
+
+def gen_flags cmds
+  out=[]
+  outop=''
+  cmds.each{|x|
+    case x[0]
+    when :remove_image
+      out+=outop if outop!=''
+      out+=['--block-type=PICTURE --remove']
+    when :add_seekpoints
+      outop+='--add-seekpoint=16x'
+    when :remove
+      outop+=Shellwords.escape("--remove-tag=#{x[1]}")
+    when :add
+      outop+=Shellwords.escape("--set-tag=#{x[1]}")
+    else
+      outop+="--#{x[0].to_s}"
+    end
+    outop+=' '
+  }
+  out+=[outop]
+  out.each{|x|x.strip!}
+  out
+end
+
+def get_ch
+    IO.console.raw{|c|c.read(1)rescue''}
+end
+
+def get_field_id id
+  inp=''
+  loop do
+    ch=get_ch.upcase
+    inp+=ch
+    print ch.downcase
+    break if ch=~/[A-Z]/
+  end
+  inp=false unless id[inp]
+  puts inp ? '' : '. Invalid selection.'
+  inp
+end
+
+def extract_field_id inp,id,atag,ttag
+  if id[inp][0]==:all
+    field=id[inp][1]
+    track=nil
+    hash=atag
+    change=[:all]
+  else
+    field=id[inp][2]
+    track=id[inp][1]
+    hash=ttag[track]
+    change=id[inp][0..1]
+  end
+  return field,track,hash,change
+end
+
+start=true
+if ! ARGV[0].nil? && Dir.exist?(ARGV[0])
+  cd=ARGV[0]
+else
+  puts "Usage: tlac [dir]"
+end
+
+while start
+  start=false
+  Dir.chdir cd
+  files=Dir.glob('*.flac')
+  all_files=Dir.glob('*')
+  tag={}
+  meta={}
+  files.each{|x|
+    meta[x]=%x[metaflac --list #{ Shellwords.escape(x) }]
+    tag[x]={}
+    meta[x].scan(/    comment\[\d+\]: .*$/).map{|y|
+      y.gsub(/    comment\[\d+\]: /,'').split('=',2) 
+    }.each{|y|
+      tag[x][y[0]]=y[1] 
+    }
+
+    stps=meta[x].scan(/  seek points: \d+$/)[0]
+    if nil == stps
+      tag[x]["_SEEKPOINTS"]='Missing'
+    else
+      stp=stps.gsub(/  seek points: /,'').to_i
+      tag[x]["_SEEKPOINTS"]=stp
+    end
+
+    piclens=meta[x].scan(/  data length: \d+$/)
+    if piclens[0]
+      piclen=meta[x].scan(/  data length: \d+$/)[0].gsub(/  data length: /,'').to_i
+      tag[x]["_PICLEN"]=piclen
+      if ! File.exist?("embed.jpg")
+        exit(1) unless do_run "metaflac --export-picture-to=embed.jpg #{Shellwords.escape(x)}"
+      end
+    end
+
+    tag[x]["_FILENAME"]=x
+  }
+
+  #atag: album tags, tags universal to entire release
+  atag=tag[files[0]].dup
+  tag.each_pair{|f,t|
+    t.each_pair{|k,v|
+      atag.delete(k) if atag[k]!=t[k]
+    }
+  }
+  
+  #fttag: file track tag, temp
+  fttag={}
+  tag.each_pair{|f,t|
+    fttag[f]={}
+    t.each_pair{|k,v|
+      fttag[f][k]=v if ! atag[k]
+    }
+  }
+
+  changes=[]
+
+  if atag["_PICLEN"] 
+    puts "RELEASE: Embedded image detected. Discarding."
+    changes+=[[:all,:remove_image]]
+  end
+
+  if atag["_SEEKPOINTS"]=="Missing"
+    puts "RELEASE: Seek points missing. Adding 16."
+    changes+=[[:all, :add_seekpoints]]
+  end
+
+  atag2={}
+  atag.each_pair{|k,v|
+    unless k==k.upcase
+      puts "RELEASE: Field name '%s' miscapitalized. Correcting to '%s'." % [k,k.upcase]
+      changes+=[[:all,:remove,k],[:all,:add,"%s=%s"%[k.upcase,v]]]
+    end
+    atag2[k.upcase]=atag[k]
+  }
+  atag=atag2
+
+  fttag2={}
+  fttag.each_pair{|f,t|
+    fttag2[f]={}
+    t.each_pair{|k,v|
+      unless k==k.upcase
+        puts "FILE: Field name '%s' miscapitalized. Correcting to '%s'." % [k,k.upcase]
+        changes+=[[:file,f,:remove,k],[:file,f,:add,"#{k.upcase}=#{v}"]]
+      end
+      fttag2[f][k.upcase]=v
+    }
+  }
+  fttag=fttag2
+
+  #validate one disc/medium release
+  tmin=tag.count
+  tmax=0
+  fttag.each_pair{|f,t|
+    tt=t["TRACKNUMBER"].to_i
+    tmin=tt if tt < tmin
+    tmax=tt if tt > tmax
+  }
+
+  if atag["TOTALTRACKS"]
+    puts "RELEASE: Deprecated TOTALTRACKS field found. Replacing with TRACKTOTAL."
+    changes+=[
+      [:all,:remove,"TOTALTRACKS"],
+      [:all,:add,"TRACKTOTAL=%s"%atag["TOTALTRACKS"].to_i.to_s]
+    ]
+    atag["TRACKTOTAL"]=atag["TOTALTRACKS"].to_i.to_s
+    atag.delete "TOTALTRACKS"
+    tag.each_pair{|f,t|t.delete "TOTALTRACKS"}
+  end
+
+  if (1==tmin && tag.count==tmax) 
+    puts "RELEASE: TRACKNUMBER consistency validated, one disc album."
+    ["DISCNUMBER","TOTALDISCS","DISCTOTAL"].each{|x|
+      if atag[x] 
+        puts "RELEASE: Redundant #{x} data found. Removing."
+        changes+=[[:all,:remove,x]]
+        atag.delete(x)
+      end
+    }
+    if ! atag["TRACKTOTAL"]
+      puts "RELEASE: TRACKTOTAL missing. Adding TRACKTOTAL."
+      changes+=[[:all,:add,"TRACKTOTAL=%d"%tag.count]]
+    elsif atag["TRACKTOTAL"].to_i!=tag.count
+      puts "RELEASE: TRACKTOTAL incorrect. Files: %d. TRACKTOTAL: %d." % [tag.count,atag["TRACKTOTAL"].to_i]
+    else
+      puts "RELEASE: TRACKTOTAL validated. Hiding."
+      atag.delete "TRACKTOTAL"
+      tag.each_pair{|f,t|t.delete("TRACKTOTAL")}
+    end
+  end
+  tracks=Array.new(tag.count)
+  fttag.each_pair{|f,t|
+    tt=t["TRACKNUMBER"].to_i
+    tracks[tt-1]=f
+  }
+
+  atag.each_pair{|k,v|
+    if atag[k]==''
+      puts "RELEASE: #{k} field exists but is empty. Removing."
+      changes+=[[:all,:remove,k]]
+      atag.delete(k)
+    end
+  }
+
+  
+  #generate 'ttag', hide TRACKNUMBER
+  ttag=Array.new(tag.count)
+  puts tracks
+  tracks.each_with_index{|t,i|
+    ttag[i]=fttag[t].dup
+    ttag[i].delete "TRACKNUMBER" 
+    ttag[i].each_pair{|k,v|
+      ttag[i].delete(k) if atag[k.upcase]
+    }
+  }
+
+  if atag["ALBUMARTIST"]==atag["ARTIST"] and atag["ALBUMARTIST"]
+    puts "RELEASE: 'ALBUMARTIST' matches 'ARTIST'; discarding 'ALBUMARTIST'."
+    atag.delete "ALBUMARTIST"
+    changes+=[[:all,:remove,"ALBUMARTIST"]]
+  end
+
+  release_artist=atag["ALBUMARTIST"] ? atag["ALBUMARTIST"] : atag["ARTIST"]
+  puts "Proper directory name: '%s - %s - %s'." % [release_artist,atag["DATE"],atag["ALBUM"]]
+
+  puts
+  refresh=true
+  extended=false
+
+  if ! ARGV[1] or ARGV[1][0]=="-"
+    loop do
+      if refresh
+        #refresh=false
+        id={}
+        puts "Release metadata:"
+        i="a".ord
+        atag.sort.each{|k,v|
+          ic='_'
+          if k[0]!='_'
+            ic=i.chr  
+            id[i.chr.upcase]=[:all,k]
+            i+=1
+          else
+            hide=!extended
+          end
+          puts "    %s. %s=%s" % [ic,k,v] unless hide
+        }
+        puts
+        puts "  Track metadata:"
+        ttag.each_with_index{|t,i|
+          ti="a".ord
+          t.each{|k,v|
+            tic='_'
+            if k[0]!='_'
+              tic=ti.chr
+              id[(i+1).to_s+tic.upcase]=[:track,i,k]
+              ti+=1
+            else
+              hide=!extended
+            end
+            puts"    %d%s. %s=%s" % [i+1,tic,k,v] unless hide
+          }
+        }
+      print "ADEMQST? "
+      end
+        
+      case ch=get_ch
+      when 'a'
+        k=do_readline("","Field name: ").upcase
+        v=do_readline("","#{k}=")
+        changes+=[[:all,:add,"#{k}=#{v}"]]
+        atag[k]=v
+      when 'a'
+        puts 'Unimplemented.'
+      when 'D','d'
+        print 'Delete field id: '
+        if inp=get_field_id(id)
+          k,t,h,c=extract_field_id(inp,id,atag,ttag)
+          h.delete(k)
+          changes+=[c+[:remove,k]]
+          refresh=true
+        end
+      when 'E','e'
+        print "Edit field id: "
+        if inp=get_field_id(id)
+          k,t,h,c=extract_field_id(inp,id,atag,ttag)
+          v=do_readline(h[k],"#{k}=")
+          if v!=h[k]
+            h[k]=v
+            changes+=[
+              c+[:remove,k],
+              c+[:add,"#{k}=#{v}"]
+            ]
+          else
+            puts "No change."
+          end
+        end
+      when 'M','m'
+        puts "Reprinting metadata display."
+        refresh=true
+      when 'N','n'
+        k=do_readline("","Field name to delete: ").upcase
+        if atag[k]
+          atag.delete(k)
+          changes+=[[:all,:remove,k]]
+        end
+        d=[]
+        ttag.each_with_index{|h,i|
+          d+=[i] if h[k]
+        }
+        puts d
+        d.each{|i|
+          ttag[i].delete(k)
+          changes+=[[:track,i,:remove,k]]
+        }
+      when 'Q','q'
+        puts "Quitting."
+        pp changes
+        break
+      when 'R','r'
+        print "Rename field id: "
+        if inp=get_field_id(id)
+          k0,t,h,c=extract_field_id(inp,id,atag,ttag)
+          k=do_readline(k0,"Field: ").upcase
+          if k!=k0
+            v=h[k0]
+            h.delete(k0)
+            h[k]=v
+            changes+=[
+              c+[:remove,k0],
+              c+[:add,"#{k}=#{v}"]
+            ]
+          else
+            puts "No change."
+          end
+        end
+      when 'S','s'
+        puts "Saving changes."
+        changes.each_with_index{|x,i|
+          xi=x[0]==:all ? 1 : 2
+          x.insert(xi,i)
+        }
+        changes.each{|x|
+          if x[0]==:track
+            x[0]=:file
+            x[1]=files[x[1]]
+          end
+        }
+        changes.sort!
+        call=[]
+        cfile={}
+        changes.each{|x|
+          if x[0]==:all
+            call+=[x[2..-1]]
+          elsif x[0]==:file
+            if cfile[x[1]]
+              cfile[x[1]]+=[x[3..-1]]
+            else
+              cfile[x[1]]=[x[3..-1]]
+            end
+          end
+        }
+        pp changes
+        pp cfile
+
+        gen_flags(call).each{|x|
+          exit(1) unless do_run "metaflac #{x} *.flac" 
+        }
+        cfile.each{|f,t|
+          gen_flags(cfile[f]).each{|x|
+            exit(1) unless do_run "metaflac #{x} #{Shellwords.escape(f)}"
+          }
+        }
+        break
+      when 'X','x'
+        extended=!extended
+        refresh=true
+      when '?'
+        puts
+        puts "[A]dd field *"
+        puts "[D]elete field"
+        puts "[E]dit field"
+        puts "Reprint [M]etadata"
+        puts "Delete field by [N]ame"
+        puts "[R]ename field"
+        puts "[Q]uit without saving"
+        puts "[S]ave changes to files and quit"
+        puts "Toggle e[X]tended info display"
+        puts "[?] Display this help"
+        puts "* - lowercase input modifies release, uppercase modifies track"
+      when ''
+      when 27.chr
+        get_ch
+        get_ch
+      else
+        puts "'%s' is not valid."%ch
+        #puts "'%s' (%d) is not valid."%[ch,ch.ord]
+      end
+    end
+  end
+end
